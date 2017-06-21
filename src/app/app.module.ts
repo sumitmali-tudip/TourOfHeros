@@ -3,12 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ProductsComponent } from './products/products.component';
+import { HeroDetailComponentComponent } from './hero-detail-component/hero-detail-component.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsComponent
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -17,4 +18,6 @@ import { ProductsComponent } from './products/products.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
