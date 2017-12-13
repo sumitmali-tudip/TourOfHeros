@@ -1,4 +1,4 @@
-# TourOfHeros
+# Tour of Heros
 
 This is the demo project of Angular 2 developed by Sumit Mali.
 
